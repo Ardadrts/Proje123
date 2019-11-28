@@ -1,0 +1,4 @@
+language : java
+script : "mvn -f proje123/pom.xml clean install cobertura:cobertura"
+jdk:
+   -openjdk8
